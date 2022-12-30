@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+td {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 54px;
+    height: 50px;
+    margin-top: 3px;
+    margin-left: 1px;
+}
+
+
+.atomicNumber,.symbol,.chemicalElement {
+border: none;
+}
+
+.symbol,.chemicalElement {
+   text-align: center;
+}
+
+.chemicalElement {
+    font-size: 8px;
+}
+
+.symbol {
+    font-size: 20px;
+}
+
+.atomicNumber {
+    font-size: 11px;
+}
+
+tr {
+    display: flex;
+    margin-left: 10px;
+}
+
+.periodictable {
+    display:flex;
+    justify-content: center;
+    margin-top: 180px;
+}
+
+.tableTwo {
+    direction: rtl;
+    margin-left: 15px;
+}
+
+.tableTwo .atomicNumber {
+    text-align: left;
+}
+
+.tableTwo td {
+    margin-top: 3px;
+}
+
+.tableThree {
+    margin-left: 517px;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+#red, #red::placeholder {
+    color: white;
+    background-color: brown;
+}
+
